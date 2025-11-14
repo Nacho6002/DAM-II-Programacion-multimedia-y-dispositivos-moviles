@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="106dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="28dp"
+        android:text="Mesa 1"
+        android:textColor="#FF0000"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewPlatosM1"
+        android:layout_width="151dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="104dp"
+        android:text="Numero Platos"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewPrecioM1"
+        android:layout_width="151dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="104dp"
+        android:text="Precio Total"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
