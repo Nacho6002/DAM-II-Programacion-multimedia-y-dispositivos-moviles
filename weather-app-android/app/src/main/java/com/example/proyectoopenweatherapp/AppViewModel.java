@@ -24,7 +24,7 @@ public class AppViewModel extends AndroidViewModel {
     private MutableLiveData<String> errorApi = new MutableLiveData<>();
 
     // la key que me saque registrandome en openweather
-    private static final String API_KEY = "e80f689016c1bcc215ff7499a1001f0d";
+    private static final String API_KEY = "TU_API_KEY_AQUI";
 
     public AppViewModel(@NonNull Application application) {
         super(application);
